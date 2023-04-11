@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a26e0c88-4eb6-47d8-b500-aa6d53d2ef7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/add_two_numbers_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/first_positive_41.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/longest_substring_3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/median_4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/merge_k_lists_23.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/rotated_array_33.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/two_sum_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/add_two_numbers_2_test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/first_positive_41_test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/longest_substring_3_test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/median_4_test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/merge_k_lists_23_test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/rotated_array_33_test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/two_sum_1_test.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="leetcode" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2O9WSH4DdPCaD4nxlv4vNUaqi5T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.peacefulotter.leetcode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="ScalaTest.rotated_array_33_test.should [5,1,2,3,4], 1 -&gt; 1">
+    <configuration name="rotated_array_33_test" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="leetcode" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="com.peacefulotter.leetcode.rotated_array_33_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rotated_array_33_test.should [1, 3, 5], 0 -&gt; -1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="leetcode" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.peacefulotter.leetcode.rotated_array_33_test" />
+      <option name="testName" value="should [1, 3, 5], 0 -&gt; -1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rotated_array_33_test.should [1, 3], 1 -&gt; 0" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="leetcode" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.peacefulotter.leetcode.rotated_array_33_test" />
+      <option name="testName" value="should [1, 3], 1 -&gt; 0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rotated_array_33_test.should [4,5,6,7,0,1,2], 0 -&gt; 4" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="leetcode" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.peacefulotter.leetcode.rotated_array_33_test" />
+      <option name="testName" value="should [4,5,6,7,0,1,2], 0 -&gt; 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rotated_array_33_test.should [5,1,2,3,4], 1 -&gt; 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="leetcode" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.peacefulotter.leetcode.rotated_array_33_test" />
+      <option name="testName" value="should [5,1,2,3,4], 1 -&gt; 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.rotated_array_33_test.should [5,1,2,3,4], 1 -&gt; 1" />
+        <item itemvalue="ScalaTest.rotated_array_33_test.should [1, 3, 5], 0 -&gt; -1" />
+        <item itemvalue="ScalaTest.rotated_array_33_test.should [4,5,6,7,0,1,2], 0 -&gt; 4" />
+        <item itemvalue="ScalaTest.rotated_array_33_test" />
+        <item itemvalue="ScalaTest.rotated_array_33_test.should [1, 3], 1 -&gt; 0" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
