@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import scala.annotation.tailrec
 
-object two_sum_1 {
+object p1_two_sum {
     def twoSum(nums: Array[Int], target: Int): Array[Int] = {
         // .filter(_._1 <= target)
         val arr = nums.zipWithIndex.sortBy(_._1)

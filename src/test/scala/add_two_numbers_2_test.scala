@@ -1,6 +1,6 @@
 package com.peacefulotter.leetcode
 
-import add_two_numbers_2.ListNode
+import p2_add_two_numbers.ListNode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
@@ -9,7 +9,7 @@ class add_two_numbers_2_test extends AnyFlatSpec {
         val ll1 = constructNodes(l1)
         val ll2 = constructNodes(l2)
         val ll3 = constructNodes(expected)
-        assert(add_two_numbers_2.addTwoNumbers(ll1, ll2).toString === ll3.toString)
+        assert(p2_add_two_numbers.addTwoNumbers(ll1, ll2).toString === ll3.toString)
     }
 
     private def constructNodes(arr: List[Int]): ListNode = arr match {

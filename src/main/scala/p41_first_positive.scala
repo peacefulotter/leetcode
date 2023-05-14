@@ -1,6 +1,7 @@
 package com.peacefulotter.leetcode
 
-object first_positive_41 {
+object p41_first_positive {
+    // TODO: unsolved
 //    def firstMissingPositive(nums: Array[Int]): Int = {
 //        val p = nums.filter(n => n > 0 && n <= nums.length).toList
 //        println(nums.mkString("(", ", ", ")") + " " + p)

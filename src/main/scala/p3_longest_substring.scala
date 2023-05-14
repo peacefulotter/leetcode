@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import scala.annotation.tailrec
 
-object longest_substring_3 {
+object p3_longest_substring {
     def lengthOfLongestSubstring(s: String): Int = {
         @tailrec
         def append(t: Vector[Char], c: Char): Vector[Char] =

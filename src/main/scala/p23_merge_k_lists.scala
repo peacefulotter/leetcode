@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import scala.collection.mutable.ListBuffer
 
-object merge_k_lists_23 {
+object p23_merge_k_lists {
      class ListNode(_x: Int = 0, _next: ListNode = null) {
          var next: ListNode = _next
          var x: Int = _x

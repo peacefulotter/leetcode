@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import scala.annotation.tailrec
 
-object median_4 {
+object p4_median {
     def findMedianSortedArrays(nums1: Array[Int], nums2: Array[Int]): Double = {
         def computeMean(acc: List[Int]): Double = acc.size % 2 match {
             case 1 => acc(acc.size / 2)

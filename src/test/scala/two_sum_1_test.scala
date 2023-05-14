@@ -4,7 +4,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class two_sum_1_test extends AnyFlatSpec {
     private def test(l: Array[Int], t: Int, expected: Array[Int]) = {
-        assert(two_sum_1.twoSum(l, t) === expected)
+        assert(p1_two_sum.twoSum(l, t) === expected)
     }
 
     it should "[2,7,11,15] = 9 => [0,1]" in {

@@ -4,7 +4,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class first_positive_41_test extends AnyFlatSpec {
     private def test(l1: Array[Int], expected: Int) = {
-        assert(first_positive_41.firstMissingPositive(l1) === expected)
+        assert(p41_first_positive.firstMissingPositive(l1) === expected)
     }
 
     it should "[3,4,-1,1] -> 2" in {

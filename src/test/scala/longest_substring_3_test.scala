@@ -4,7 +4,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class longest_substring_3_test extends AnyFlatSpec {
     private def test(s: String, i: Int) = {
-        assert(longest_substring_3.lengthOfLongestSubstring(s) === i)
+        assert(p3_longest_substring.lengthOfLongestSubstring(s) === i)
     }
 
     it should "abcabcbb = 3" in {

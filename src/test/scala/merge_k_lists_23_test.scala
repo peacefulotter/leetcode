@@ -1,6 +1,6 @@
 package com.peacefulotter.leetcode
 
-import merge_k_lists_23.ListNode
+import p23_merge_k_lists.ListNode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
@@ -9,7 +9,7 @@ class merge_k_lists_23_test extends AnyFlatSpec {
     private def test(l1: List[List[Int]],  expected: List[Int]) = {
         val ll1 = l1.map( constructNodes ).toArray
         val ll2 = constructNodes(expected)
-        assert(merge_k_lists_23.mergeKLists(ll1).toString === ll2.toString)
+        assert(p23_merge_k_lists.mergeKLists(ll1).toString === ll2.toString)
     }
 
     private def constructNodes(arr: List[Int]): ListNode = arr match {

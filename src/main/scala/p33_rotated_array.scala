@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import scala.annotation.tailrec
 
-object rotated_array_33 {
+object p33_rotated_array {
     def search(arr: Array[Int], target: Int): Int = {
         println("\n\n")
 

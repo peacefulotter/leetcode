@@ -4,7 +4,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class rotated_array_33_test extends AnyFlatSpec {
     private def test(nums: Array[Int], target: Int, expected: Int) = {
-        assert(rotated_array_33.search(nums, target) === expected)
+        assert(p33_rotated_array.search(nums, target) === expected)
     }
 
     it should "[4,5,6,7,0,1,2], 0 -> 4" in {
