@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class longest_substring_3_test extends AnyFlatSpec {
+class p3_longest_substring_test extends AnyFlatSpec {
     private def test(s: String, i: Int) = {
         assert(p3_longest_substring.lengthOfLongestSubstring(s) === i)
     }

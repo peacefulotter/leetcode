@@ -4,7 +4,7 @@ import p2_add_two_numbers.ListNode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class add_two_numbers_2_test extends AnyFlatSpec {
+class p2_add_two_numbers_test extends AnyFlatSpec {
     private def test(l1: List[Int], l2: List[Int], expected: List[Int]) = {
         val ll1 = constructNodes(l1)
         val ll2 = constructNodes(l2)

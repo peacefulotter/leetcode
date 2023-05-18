@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class median_4_test extends AnyFlatSpec {
+class p4_median_test extends AnyFlatSpec {
     private def test(l1: Array[Int], l2: Array[Int], expected: Double) = {
         assert(p4_median.findMedianSortedArrays(l1, l2) === expected)
     }

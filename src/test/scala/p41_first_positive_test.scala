@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class first_positive_41_test extends AnyFlatSpec {
+class p41_first_positive_test extends AnyFlatSpec {
     private def test(l1: Array[Int], expected: Int) = {
         assert(p41_first_positive.firstMissingPositive(l1) === expected)
     }

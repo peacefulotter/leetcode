@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class wildcard_matching_test extends AnyFlatSpec {
+class p44_wildcard_matching_test extends AnyFlatSpec {
 	it should "aa a => false" in {
 		assert(p44_wildcard_matching.isMatch("aa", "a") === false)
 	}

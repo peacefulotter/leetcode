@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class two_sum_1_test extends AnyFlatSpec {
+class p1_two_sum_test extends AnyFlatSpec {
     private def test(l: Array[Int], t: Int, expected: Array[Int]) = {
         assert(p1_two_sum.twoSum(l, t) === expected)
     }

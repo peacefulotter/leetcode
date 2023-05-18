@@ -3,18 +3,7 @@ package com.peacefulotter.leetcode
 import scala.collection.mutable.ListBuffer
 
 object p23_merge_k_lists {
-     class ListNode(_x: Int = 0, _next: ListNode = null) {
-         var next: ListNode = _next
-         var x: Int = _x
-         // println(node.mkString("", "\n", ";"))
-         override def toString: String = x + (next match {
-             case (node: ListNode) => " -> " + node.toString;
-             case _ => ""
-         } )
-     }
-
-
-    //    def mergeKLists(lists: Array[ListNode]): ListNode = {
+//    def mergeKLists(lists: Array[ListNode]): ListNode = {
 //        var rest: ArrayBuffer[(ListNode, Int)] = null
 //        @tailrec
 //        def rec(arr: ArrayBuffer[(ListNode, Int)], first: ListNode, last: ListNode): ListNode = {

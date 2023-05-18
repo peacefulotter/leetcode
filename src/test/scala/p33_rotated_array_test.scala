@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class rotated_array_33_test extends AnyFlatSpec {
+class p33_rotated_array_test extends AnyFlatSpec {
     private def test(nums: Array[Int], target: Int, expected: Int) = {
         assert(p33_rotated_array.search(nums, target) === expected)
     }

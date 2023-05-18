@@ -2,7 +2,7 @@ package com.peacefulotter.leetcode
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class strictly_increasing_1909_test extends AnyFlatSpec {
+class p1909_strictly_increasing_test extends AnyFlatSpec {
 	private def test(arr: Array[Int], expected: Boolean) =
 		assert(p1909_strictly_increasing.canBeIncreasing(arr) === expected)
 
