@@ -52,6 +52,6 @@ object p37_sudoku_solver {
     def solveSudoku(board: Sudoku): Unit = {
 
         Note.takeNotes(board)
-        println(notes.foreach(println))
+        // println(notes.foreach(println))
     }
 }
