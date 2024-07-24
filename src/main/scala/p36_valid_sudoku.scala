@@ -9,7 +9,6 @@ object p36_valid_sudoku {
             (0 until 9).map(r => board(r)(i) ).count(_ == v) == 1
         def checkSquare(v: Char, i: Int, j: Int): Boolean = {
             val sI = (i / 3) * 3; val sJ = (j / 3) * 3
-            println(i, j, sI, sJ, sI until sI + 3, sJ until sJ + 3)
             for {
                 r <- sI until sI + 3
                 c <- sJ until sJ + 3

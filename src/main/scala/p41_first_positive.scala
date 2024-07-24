@@ -30,7 +30,6 @@ object p41_first_positive {
         else if (arr2.size == arr.length) return arr.length + 1
 
         val r = Range.inclusive(1, arr2.size + 1).map(_ => true).toBuffer
-        println(arr2 + " " + r)
         for (elt <- arr2; if elt <= arr2.size + 1)
             r(elt - 1) = false
         println(r)

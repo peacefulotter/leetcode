@@ -15,7 +15,7 @@ class p2392_matrix_with_conditions_test extends AnyFlatSpec {
       p2392_matrix_with_conditions.buildMatrix(k, rowConditions, colConditions)
 
     if (impossible) {
-      assert(mat === Array())
+      assert(mat === Array[Array[Array[Int]]]())
       return
     }
 
@@ -48,8 +48,12 @@ class p2392_matrix_with_conditions_test extends AnyFlatSpec {
   }
 
   it should "3, [[1,2],[2,3],[3,1],[2,3]], [[2,1]]" in {
-    test(3, Array(Array(1, 2), Array(2, 3), Array(3, 1), Array(2, 3)), Array(Array(2, 1)), impossible=true)
+    test(
+      3,
+      Array(Array(1, 2), Array(2, 3), Array(3, 1), Array(2, 3)),
+      Array(Array(2, 1)),
+      impossible = true
+    )
   }
-
 
 }

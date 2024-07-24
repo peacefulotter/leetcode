@@ -17,7 +17,6 @@ object p34_first_last_pos_arr {
         )
       val window = (high - low) / 2
       val v = nums(low + window)
-      println(low, high, "win", window, "idx", low + window, "v", v)
       if (v > target)
         rec(low, high - window)
       else if (v < target)
@@ -26,8 +25,6 @@ object p34_first_last_pos_arr {
         val low_rec = rec(low, low + window)
         val high_rec = rec(low + window, high)
         val recs = (low_rec ++ high_rec).filter(_ != -1)
-        println(low, high, low_rec.toList, high_rec.toList)
-        println(recs)
         if (recs.length == 1)
           Array(recs(0), recs(0))
         else

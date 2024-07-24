@@ -11,7 +11,6 @@ object p15_3sum {
             for (j <- i + 1 until len)
                 for (k <- j + 1 until len) {
                     val (a, b, c) = (sorted(i), sorted(j), sorted(k))
-                    println(i, j, k, a, b, c, a + b + c)
                     if (a > 0 || a + c > 0 || a + b + c > 0)
                         return res.toList
                     else if (a + b + c == 0)
