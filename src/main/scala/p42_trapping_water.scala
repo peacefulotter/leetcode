@@ -5,68 +5,60 @@ import scala.collection.mutable
 
 object p42_trapping_water {
 
-  /** *
-    * WORKING SOLUTION USING FUNCTIONAL PROGRAMMING
-    * throws Memory Limit Exceeded
-    *
-    * @tailrec
-    * def rec(i: Int, candidates: Map[Int, Int], acc: Int): Int =
-    * if (i >= height.length)
-    * acc
-    * else {
-    * val h = height(i)
-    * val (water, newCandidates) = candidates.foldLeft((0, Map[Int, Int]())) { case ((w, c), (k, v)) =>
-    * (w + (if k <= h then v else 0), c + (k -> (v + (if k > h then 1 else 0))))
-    * }
-    * val newCandidatesAdd = newCandidates ++ (1 to h map (_ -> 0))
-    * rec(i + 1, newCandidatesAdd, acc + water)
-    * }
-    *
-    * rec(0, Map(), 0)
-    */
-  /** val candidates = mutable.Map[Int, Int]()
-    *
-    * @tailrec
-    * def rec(i: Int, acc: Int): Int =
-    * if (i >= height.length)
-    * acc
-    * else {
-    * val h = height(i)
-    * val water = candidates.foldLeft(0) { case (w, (k, v)) =>
-    * val res = w + (if k <= h then v else 0)
-    * if (k > h)
-    * candidates.update(k, v + 1)
-    * res
-    * }
-    * for (k <- 1 to h) candidates.update(k, 0)
-    * rec(i + 1, acc + water)
-    * }
-    *
-    * rec(0, 0)
-    */
-  private case class Candidate(value: Int, pos: Int)
+	/**
+	 * *
+	 * WORKING SOLUTION USING FUNCTIONAL PROGRAMMING
+	 * throws Memory Limit Exceed
+	 *
+	 * @tailrec
+	 * def rec(i: Int, candidates: Map[Int, Int], acc: Int): Int =
+	 * 		if (i >= height.length)
+	 * 			acc
+	 * 		else {
+	 * 			val h = height(i)
+	 * 			val (water, newCandidates) = candidates.foldLeft((0, Map[Int, Int]())) { case ((w, c), (k, v)) =>
+	 * 				(w + (if k <= h then v else 0), c + (k -> (v + (if k > h then 1 else 0))))
+	 * 			}
+	 * 			val newCandidatesAdd = newCandidates ++ (1 to h map (_ -> 0))
+	 * 			rec(i + 1, newCandidatesAdd, acc + water)
+	 * 		}
+	 * 		rec(0, Map(), 0)
+	 */
 
-  def trap(height: Array[Int]): Int = {
-    val candidates = mutable.Map[Int, Candidate]()
+	private type Height = Int
+	private type Pos = Int
+	private case class Candidate(pos: Pos, height: Height)
 
-    @tailrec
-    def rec(i: Int, acc: Int): Int =
-      if (i >= height.length)
-        acc
-      else {
-        val h = height(i)
-        if (h == 0)
-          return rec(i + 1, acc)
+	def trap(height: Array[Int]): Int = {
+		@tailrec
+		def rec(i: Int, candidates: List[Candidate], acc: Int): Int =
+			if (i >= height.length)
+				acc
+			else {
+				val h = height(i)
+				if (h == 0)
+					return rec(i + 1, candidates, acc)
 
-        println(f"i ${i}, cand ${candidates}, acc ${acc}")
-//        val cand = candidates.foldLeft(None)((best, (cH, c) ⇒
-//        ))
-        candidates.update(h, Candidate(0, i))
-        val water = 0
-        println(f"i ${i}, new cand ${candidates}, w ${water}")
-        rec(i + 1, acc + water)
-      }
+				val (maxHeight, water, _) =
+					candidates.foldLeft((0, 0, 0)) {
+						case ((maxHeight, water, removedLevel), cand) =>
+							val level = Math.min(cand.height, h)
+							val candWater = (level - removedLevel) * (i - cand.pos - 1)
+							val highest = Math.max(maxHeight, cand.height)
+							(highest, water + candWater, level)
+					}
 
-    rec(0, 0)
-  }
+				val selectedCandidates =
+					if (h >= maxHeight) Nil
+					else
+						candidates filter { cand =>
+							cand.height > h
+						}
+				val newCandidates = Candidate(i, h) :: selectedCandidates
+
+				rec(i + 1, newCandidates, acc + water)
+			}
+
+		rec(0, Nil, 0)
+	}
 }
