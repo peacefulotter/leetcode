@@ -1,12 +1,60 @@
-### Solved
-- 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 17, 19, 23, 41, 42, 450, 1605, 1909, 2392, 2428
+# leetcode
 
-### Solved, but
+Solving LeetCode problems in Scala, using Functional Programming when possible
 
-#### Memory Limit Exceeded
+## ✅ Solved
 
-### Attempted
-- 3, 15, 33, 34, 41, 44
+### <span style="color:lightgreen">Easy</span>
+**1.** Two Sum\
+**9.** Palindrome Number\
+**13.** Roman to Integer\
+**14.** Longest Common Prefix\
+**21.** Merge Two Sorted Lists\
+**1909.** Remove One Element to Make the Array Strictly Increasing\
+**2418.** Sort the People
 
-### Added but untouched
-- 1020
+### <span style="color:orange">Medium</span>
+
+**2.** Add Two Numbers\
+**3.** Longest Substring Without Repeating Characters\
+**6.** Zigzag Conversion\
+**7.** Reverse Integer\
+**8.** String to Integer (atoi)\
+**11.** Container With Most Water\
+**12.** Integer to Roman\
+**17.** Letter Combinations of a Phone Number\
+**19.** Remove Nth Node From End of List\
+**36.** Valid Sudoku\
+**450.** Delete Node in a BST\
+**1605.** Find Valid Matrix Given Row and Column Sums\
+**2428.** Maximum Sum of an Hourglass
+ 
+
+
+### <span style="color:red">Hard</span>
+
+**4.** Median of Two Sorted Arrays\
+**23.** Merge k Sorted Lists\
+**41.** First Missing Positive\
+**42.** Trapping Rain Water\
+**2392.** Build a Matrix With Conditions
+
+
+## 🚧 Solved, but
+
+### Time Limit Exceeded
+**44.** Wildcard Matching
+
+### Memory Limit Exceeded
+**2045.** Second Minimum Time to Reach Destination
+
+## 😞 Attempted
+**10.** Regular Expression Matching\
+**15.** 3Sum\
+**29.** Divide Two Integers\
+**30.** Substring with Concatenation of All Words\
+**33.** Search in Rotated Sorted Array\
+**34.** Find First and Last Position of Element in Sorted Array
+
+## Added but untouched
+1020. Number of Enclaves
