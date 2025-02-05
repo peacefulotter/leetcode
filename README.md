@@ -4,7 +4,7 @@ Solving LeetCode problems in Scala, using Functional Programming when possible
 
 ## ✅ Solved
 
-### <span style="color:lightgreen">Easy</span>
+### $${\color{lightgreen}Easy}$$
 **1.** Two Sum\
 **9.** Palindrome Number\
 **13.** Roman to Integer\
@@ -13,7 +13,7 @@ Solving LeetCode problems in Scala, using Functional Programming when possible
 **1909.** Remove One Element to Make the Array Strictly Increasing\
 **2418.** Sort the People
 
-### <span style="color:orange">Medium</span>
+### $${\color{orange}Medium}$$
 
 **2.** Add Two Numbers\
 **3.** Longest Substring Without Repeating Characters\
@@ -31,7 +31,7 @@ Solving LeetCode problems in Scala, using Functional Programming when possible
  
 
 
-### <span style="color:red">Hard</span>
+### $${\color{red}Hard}$$
 
 **4.** Median of Two Sorted Arrays\
 **23.** Merge k Sorted Lists\
