@@ -29,6 +29,7 @@ Solving LeetCode problems in Scala, using Functional Programming when possible
 **36.** Valid Sudoku\
 **450.** Delete Node in a BST\
 **1605.** Find Valid Matrix Given Row and Column Sums\
+**2342.** Max Sum of a Pair With Equal Sum of Digits\
 **2364.** Count number of Bad Pairs\
 **2428.** Maximum Sum of an Hourglass
 
