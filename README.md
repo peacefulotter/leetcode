@@ -40,7 +40,10 @@ Solving LeetCode problems in Scala, using Functional Programming when possible
 **23.** Merge k Sorted Lists\
 **41.** First Missing Positive\
 **42.** Trapping Rain Water\
-**2392.** Build a Matrix With Conditions
+**2392.** Build a Matrix With Conditions\
+**3425.** Longest Special Path *(basically solved, unclear definition of
+downwards, see comments in corresponding scala
+file)*
 
 ## 🚧 Solved, but
 
